@@ -4,7 +4,7 @@ An AI-powered bank statement analyzer that helps individuals and professionals u
 
 ## Overview
 
-BankStatementGPT is a Streamlit-based web application that allows users to:
+FinanceGPT is a Streamlit-based web application that allows users to:
 - Upload bank statements in PDF format
 - Get automated analysis of transactions
 - Chat with an AI assistant about their financial data
@@ -24,8 +24,8 @@ BankStatementGPT is a Streamlit-based web application that allows users to:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/BankStatementGPT.git
-cd BankStatementGPT
+git clone https://github.com/yourusername/FinanceGPT.git
+cd FinanceGPT
 ```
 
 2. Install dependencies:
@@ -33,19 +33,7 @@ cd BankStatementGPT
 pip install -r requirements.txt
 ```
 
-3. Install Tesseract OCR:
-- For Ubuntu/Debian:
-  ```bash
-  sudo apt-get install tesseract-ocr
-  ```
-- For macOS:
-  ```bash
-  brew install tesseract
-  ```
-- For Windows:
-  Download and install from: https://github.com/UB-Mannheim/tesseract/wiki
-
-4. Set up your environment variables:
+3. Set up your environment variables:
 ```bash
 export ANTHROPIC_API_KEY='your_claude_api_key'
 ```
@@ -76,14 +64,6 @@ This application processes sensitive financial information. We recommend:
 This project uses the Claude API for natural language processing. For more information about Claude and API usage, visit:
 - [Claude Documentation](https://docs.anthropic.com/claude/docs)
 - [API Reference](https://docs.anthropic.com/claude/reference/getting-started-with-the-api)
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
