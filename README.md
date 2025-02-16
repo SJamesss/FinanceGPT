@@ -1,4 +1,4 @@
-# BankStatementGPT
+# FinanceGPT
 
 An AI-powered bank statement analyzer that helps individuals and professionals understand their financial transactions better using Claude AI.
 
