@@ -94,6 +94,9 @@ class MultiBankStatementChatbot:
             Net Change: [Currency Symbol]amount
 
             Add a brief analysis of spending patterns and any notable observations.
+
+            Note : Be careful, if the documents that are provided are not bank statements, just say that they are not bank statements.
+            So please upload the proper file.
             """
             
             all_summaries = []
@@ -161,6 +164,7 @@ class MultiBankStatementChatbot:
             Provide insights across all statements, including trends and patterns over time.
             Be concise but informative. Note any concerning patterns or provide suggestions.
             Use the appropriate currency symbols and round to 2 decimal places when showing amounts.
+
             Don't answer anything that is out of the context of financial advising.
 
             Previous conversation context helps you maintain continuity in the discussion.
